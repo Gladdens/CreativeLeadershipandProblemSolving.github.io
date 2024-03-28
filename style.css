@@ -79,7 +79,7 @@ nav a {
   color: #fcfbfc; 
 }
 a:hover {
-  color: #98C9C1;
+  color: #455A64;
 }
 
 /* --------- Home --------- */
@@ -101,7 +101,7 @@ a:hover {
   font-style: normal;
   font-size: 7.8rem;
   line-height: 1.2 !important;
-  color: #263238;
+  color: #455A64;
 }
 .home2 {
   font-family: ff-uberhand-pro, sans-serif;
@@ -111,7 +111,7 @@ a:hover {
   /* text-align: center; */
   margin: 20px 0px;
   letter-spacing: 0rem;
-  color: #98C9C1;
+  color: #455A64;
 }
 #startbtn {
   padding: 15px 30px;
@@ -183,7 +183,7 @@ ul, ol,{
   font-size: 1.6rem;
   line-height: 2.2rem;
   letter-spacing: .1rem;
-  color: #263238;
+  color: #455A64;
 }
 .itm {
   margin: 20px 0 0px;
@@ -195,7 +195,7 @@ li {
   font-size: 1.6rem;
   line-height: 2.2rem;
   letter-spacing: .1rem;
-  color: #263238;
+  color: #455A64;
 }
 ol {
    margin: 0px 0 0;
@@ -205,7 +205,7 @@ ol {
   font-size: 1rem; 
   text-indent: 0rem;
   font-weight: 500;
-  color: #263238;
+  color: #455A64;
 }
 
 
@@ -230,7 +230,7 @@ ol {
 h2 {
   margin-bottom: 0px;
   font-size: 2rem; 
-  color: #98C9C1;
+  color: #455A64;
 }
 #role {
   font-family: urbane;
@@ -238,14 +238,14 @@ h2 {
   font-weight: 150;
   line-height: 0rem;
   letter-spacing: .2rem;
-  color: #263238;
+  color: #455A64;
   text-indent: 0rem;
   margin-bottom: 3rem;
 }
 p {
   font-size: 1.6rem;
   letter-spacing: .1rem;
-  color: #263238;
+  color: #455A64;
   text-indent: 2rem;
 }
 hr {
