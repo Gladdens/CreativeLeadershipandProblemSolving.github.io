@@ -1,0 +1,288 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "urbane", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+}
+body {
+  margin: 0px;
+  background-color: #fcfbfc;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1rem;
+  margin: auto auto;
+}
+/* --------- Main --------- */
+.main {
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1rem;
+}
+h1 {
+  grid-column: 1/13;
+  font-size: 5rem;
+  font-family: "urbane", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  color: #DC688B;
+}
+footer {
+  grid-column: 1/13;
+  height: 100px;
+  background-color: #DC688B;
+  margin-top: 50px;
+}
+.footer {
+  font-family: ff-uberhand-pro;
+  font-size: 1.8rem;
+  color: #fcfbfc;
+  text-align: right;
+  margin: 50px;
+}
+
+/* --------- navigaton bar --------- */
+nav {
+  display: grid;
+  grid-column: 1/13;
+  text-align: end;
+  background-color: #DC688B;
+  padding: 20px;
+}
+#logo {
+  display: block;
+  grid-column: 2;
+  margin: auto auto;
+  height: 80px;
+}
+nav ul {
+  display: grid;
+  grid-column: 7 / 13;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 1.6rem;
+  font-weight: 400;
+  list-style-type: none;
+  margin: 25px;
+  padding: 0px;
+}
+nav li {
+  padding: auto auto;
+  margin: auto auto;
+}
+nav a {
+  text-decoration: none;
+  color: #fcfbfc; 
+}
+a:hover {
+  color: #98C9C1;
+}
+
+/* --------- Home --------- */
+.img {
+  grid-column: 2/6;
+  grid-row: 1/2;
+  margin: auto auto;
+  max-height: 80vh;
+}
+#home {
+  grid-column: 7/12;
+  display: grid;
+  grid-row: 1fr;
+  margin: auto auto;
+}
+.home1 {
+  font-family: "urbane", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 7.8rem;
+  line-height: 1.2 !important;
+  color: #263238;
+}
+.home2 {
+  font-family: ff-uberhand-pro, sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  font-style: normal;
+  /* text-align: center; */
+  margin: 20px 0px;
+  letter-spacing: 0rem;
+  color: #98C9C1;
+}
+#startbtn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px 50px;
+  width: 120px;
+  margin: 30px 0px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fcfbfc;
+  background-color: #DC688B;
+  box-shadow: 0px 5px 10px #c7c7c7;
+  text-align: center;
+}
+#startbtn:hover {
+  color: #fcfbfc;
+  background-color: #DC688B;
+  font-weight: 600;
+}
+
+
+
+/* --------- CPS Methodology --------- */
+
+
+
+/* --------- Limiting Risks --------- */
+
+
+
+/* --------- Inclusivity and Diversity --------- */
+
+
+
+/* --------- CPS Limitations and Recommendations --------- */
+.bike {
+  grid-column: 2/12;
+  margin: auto auto;
+  max-height: 50vh;
+}
+.dez {
+  grid-column: 2/12;
+    padding: 20px;
+    margin: 0 150px 30px;
+}
+.format {
+  font-family: "urbane", sans-serif;
+  margin: 25px 0 0;
+  text-indent: 0rem;
+}
+.dez-h2 {
+  font-family: "urbane", sans-serif;
+  font-size: 3.5rem; 
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  margin-top: 0px;
+}
+.dez-h3 {
+  font-family: "urbane", sans-serif;
+  font-size: 2.7rem; 
+  text-indent: 0rem;
+  font-weight: 500;
+  margin-top: 50px;
+}
+ul, ol,{
+  font-family: "urbane", sans-serif;
+  margin: 25px 0 0;
+  text-indent: 0rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: .1rem;
+  color: #263238;
+}
+.itm {
+  margin: 20px 0 0px;
+}
+li {
+  font-family: "urbane", sans-serif;
+  margin: 20px 0 0;
+  text-indent: 0rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: .1rem;
+  color: #263238;
+}
+ol {
+   margin: 0px 0 0;
+}
+.cite {
+  font-family: "urbane", sans-serif;
+  font-size: 1rem; 
+  text-indent: 0rem;
+  font-weight: 500;
+  color: #263238;
+}
+
+
+
+
+/* --------- Testimonies --------- */
+.tests {
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.story {
+/*margin: 25px;
+  border: 0;
+  border-radius: 2%/2%;
+  box-shadow: 0px 5px 10px #c7c7c7; 
+  background-color: #ffffff;*/
+  grid-column: 2/12;
+  padding: 20px;
+  margin: 0 200px;
+}
+h2 {
+  margin-bottom: 0px;
+  font-size: 2rem; 
+  color: #98C9C1;
+}
+#role {
+  font-family: urbane;
+  font-size: 1rem;
+  font-weight: 150;
+  line-height: 0rem;
+  letter-spacing: .2rem;
+  color: #263238;
+  text-indent: 0rem;
+  margin-bottom: 3rem;
+}
+p {
+  font-size: 1.6rem;
+  letter-spacing: .1rem;
+  color: #263238;
+  text-indent: 2rem;
+}
+hr {
+  grid-column: 1/13;
+  margin: auto auto;
+  width: 90%;
+  height: 1px;
+  border:none;
+  color: #DC688B;
+  background-color: #DC688B;
+}
+#emily {
+  
+}
+
+#gladdens {
+  
+}
+
+
+#sang {
+  
+}
+
+
+
+
+/* --------- References --------- */
+.ref {
+  grid-column: 3/11;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.6rem; 
+  line-height: 2.4rem;
+  text-indent: -36px;
+  padding-left: 36px;
+  margin: 0px;
+  max-width: 70vw;
+  word-wrap:break-word; 
+}
+
