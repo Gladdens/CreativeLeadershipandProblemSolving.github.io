@@ -175,6 +175,7 @@ a:hover {
   text-indent: 0rem;
   font-weight: 500;
   margin-top: 50px;
+  line-height: 3rem;
 }
 ul, ol,{
   font-family: "urbane", sans-serif;
