@@ -100,7 +100,7 @@ a:hover {
   font-weight: 700;
   font-style: normal;
   font-size: 7.8rem;
-  line-height: 1.2 !important;
+  /* line-height: 1.2 !important; */
   color: #455A64;
 }
 .home2 {
@@ -131,7 +131,6 @@ a:hover {
   background-color: #DC688B;
   font-weight: 600;
 }
-
 
 
 /* --------- CPS Methodology --------- */
@@ -258,20 +257,6 @@ hr {
   color: #DC688B;
   background-color: #DC688B;
 }
-#emily {
-  
-}
-
-#gladdens {
-  
-}
-
-
-#sang {
-  
-}
-
-
 
 
 /* --------- References --------- */
@@ -279,7 +264,7 @@ hr {
   grid-column: 3/11;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.6rem; 
-  line-height: 2.4rem;
+  line-height: 3.2rem;
   text-indent: -36px;
   padding-left: 36px;
   margin: 0px;
